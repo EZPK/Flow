@@ -1,0 +1,53 @@
+body {
+ 
+    }
+    .contents{
+        background: #fff;
+        padding: 20px;
+        margin: auto;
+        opacity: 0.7;
+        text-align: center;
+    }
+    .contents button{
+        width: 100px;
+        opacity: 0.9;
+        background: #000;
+    }
+    h1 {
+        color: #333333;
+        font-size: 60px;
+    }
+    h2 {
+        color: #2e2e2e;
+        font-size: 28px;
+    }
+    a {
+        color: #2f2f2f;
+        font-size: 18px
+    }
+    #pButton{
+        height:32px;
+        width: 32px;
+        border: none;
+        background-size: 50% 50%;
+        background-position: center;
+    }
+    .play{background: url('../img/play.png') no-repeat;}
+    .pause{background: url('../img/pause.png') no-repeat;}
+
+    #timeline{
+        width: 400px;
+        height: 20px;
+        background: #4200f7;
+        margin-top: 20px;
+        float: left;
+        border-radius: 15px;
+    }
+    
+    #playhead{
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        margin-top: 1px;
+        background: rgba(0, 255, 196, 0.82);
+    }
