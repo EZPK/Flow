@@ -1,0 +1,22 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "description": "Music streaming app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EZPK/Flow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EZPK/Flow/issues"
+  },
+  "homepage": "https://github.com/EZPK/Flow#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
