@@ -1,6 +1,8 @@
 body {
  
 }
+
+
 .contents{
     background: #fff;
     padding: 20px;
@@ -47,10 +49,13 @@ a {
 }
 
 #timeline{
-    width: 400px;
+    width: 375px;
     height: 20px;
-    background: #4200f7;
+    /* background: #4200f7; */
+    background: -webkit-linear-gradient(right, #4200f7, #29ABDD); /* For Safari 5.1 to 6.0 */
     margin-top: 20px;
+    margin-left:25px;
+    margin-right:25px;
     float: left;
     border-radius: 15px;
 }
@@ -68,14 +73,24 @@ a {
     width:420px;
     height:400px;
     box-shadow: 5px 5px 3px #888888;
-    padding:20px;
 }
 
 .songAuthor{
-    text-align: center;
+    padding-top:16px;
+    padding-left:20px;
+    color:#29ABDD;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .songTitle{
-    text-align: center;
+    padding-left:20px;    
+    font-family: 'Fira Sans', sans-serif;
+    
 }
 
+.playerTitle{
+    width:420px;  
+    height:65px;
+    display:block;
+    background-color:#000;
+}

@@ -84,12 +84,10 @@ window.onload = function(){
         if (music.paused) {
             music.play();
             // remove play, add pause
-            pButton.className = "";
             pButton.className = "pause";
         } else { // pause music
             music.pause();
             // remove pause, add play
-            pButton.className = "";
             pButton.className = "play";
         }
     }
