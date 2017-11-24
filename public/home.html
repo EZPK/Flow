@@ -4,15 +4,10 @@
         <title>Flow</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.8/vue.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oxygen" rel="stylesheet">         
-        <!-- <div id="songs">
-            <song :song-name="songs[0].author" :song-title="songs[0].title"></song>
-            <song :song-name="songs[1].author" :song-title="songs[1].title"></song>
-            <song :song-name="songs[2].author" :song-title="songs[2].title"></song>
-        </div> -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oxygen" rel="stylesheet">
         <div id="songs">
             <div class="song" v-for="song in songs">
-                <song :song-name="song.author" :song-title="song.title"></song>                    
+                <song :song-name="song.author" :song-title="song.title" :song-path="song.path"></song>                    
             </div>
         </div>
         <script src="js/play.js"></script>
