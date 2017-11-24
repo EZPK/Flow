@@ -1,5 +1,5 @@
 body {
- 
+    background-color:#DDD;
 }
 
 
@@ -39,8 +39,13 @@ a {
     background-position: center;
     background-color:#29ABDD;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #888888;
+    box-shadow: 0px 8px 16px 0px #2e2e2e;
 }
+
+#pButton:focus{
+    outline: 0;
+}
+
 .play{
     background: url('../img/play.png') no-repeat;
 }
@@ -69,10 +74,10 @@ a {
 }
 
 .player{
-    background-color:#F1F1F1;
+    background-color:#424242;
     width:420px;
     height:400px;
-    box-shadow: 5px 5px 3px #888888;
+    box-shadow:0px 8px 16px 0px #2e2e2e;
 }
 
 .songAuthor{
