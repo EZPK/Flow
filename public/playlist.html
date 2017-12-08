@@ -1,0 +1,25 @@
+<body>
+    
+
+<div id="playlist">
+    <ul>
+        <li v-for="song in currentList">{{ song }}</li>
+    </ul>
+
+    
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js"></script>
+
+<script>
+ new Vue({
+     el:'#playlist',
+     data:{
+         currentList : ['song1','song2']
+     }
+ })
+
+</script>
+
+
+</body>
